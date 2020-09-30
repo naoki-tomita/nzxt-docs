@@ -1,0 +1,12 @@
+{
+  "name": "nzxt-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/marked": "^1.1.0",
+    "marked": "^1.2.0",
+    "nzxt": "latest",
+    "zheleznaya": "^0.1.8"
+  }
+}
