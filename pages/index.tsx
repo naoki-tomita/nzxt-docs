@@ -2,7 +2,7 @@ import { h, Component } from "nzxt/h";
 import { Content } from "../components/Content";
 import { Header } from "../components/Header";
 
-const Documents: Component = () => {
+const Index: Component = () => {
   return (
     <div>
       <Header />
@@ -13,4 +13,4 @@ const Documents: Component = () => {
   )
 }
 
-export default Documents;
+export default Index;
