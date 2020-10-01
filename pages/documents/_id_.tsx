@@ -6,11 +6,11 @@ import { Content } from "../../components/Content";
 import { Html } from "../../components/Html";
 
 function readFileAsync(path: string) {
-  return new Promise<string>(ok => readFile(path, (_, d) => ok(d.toString())));
+  return new Promise<string>((ok, ng) => readFile(path, (e, d) => e ? ng(e) : ok(d.toString())));
 }
 
 function markedAsync(md: string) {
-  return new Promise<string>(ok => marked(md, (_, d) => ok(d)));
+  return new Promise<string>((ok, ng) => marked(md, (e, d) => e ? ng(e) : ok(d)));
 }
 
 const Document: Component<{html: string}> = ({ html }) => {
