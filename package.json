@@ -6,7 +6,7 @@
   "dependencies": {
     "@types/marked": "^1.1.0",
     "marked": "^1.2.0",
-    "nzxt": "^0.1.8",
+    "nzxt": "^0.1.9",
     "zheleznaya": "^0.1.11"
   },
   "devDependencies": {
