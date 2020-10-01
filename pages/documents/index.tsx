@@ -1,7 +1,16 @@
 import { h, Component } from "nzxt/h";
+import { Content } from "../../components/Content";
+import { Header } from "../../components/Header";
 
 const Documents: Component = () => {
-  return <div>Hello document</div>
+  return (
+    <div>
+      <Header />
+      <Content>
+        <h1>See <a href="/documents/introduction">introduction</a></h1>
+      </Content>
+    </div>
+  )
 }
 
 export default Documents;

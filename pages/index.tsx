@@ -7,7 +7,12 @@ const Index: Component = () => {
     <div>
       <Header />
       <Content>
-        <h1><a href="/documents">documentation</a></h1>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <div>
+            <h1 style={{ textAlign: "center", fontSize: "4.2em" }} >SSR framework <br/>for Zheleznaya</h1>
+            <h2 style={{ textAlign: "center" }} >See <a href="/documents">documentation</a></h2>
+          </div>
+        </div>
       </Content>
     </div>
   )
