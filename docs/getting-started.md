@@ -1,9 +1,9 @@
-## getting started
+# Getting started
 
 T.B.D
 
-### installation
+## installation
 
 T.B.D
 
-##### [<- prev](./introduction) / [next ->](./create-first-application)
+#### [<- prev](./introduction) / [next ->](./create-first-application)

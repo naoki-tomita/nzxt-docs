@@ -1,8 +1,8 @@
-## introduction
+# Introduction
 
 T.B.D
 
-### what is nzxt?
+## what is nzxt?
 
 A server side rendering framework for [zheleznaya](https://naoki-tomita.github.io/zheleznaya/dist/).
 
@@ -23,8 +23,8 @@ Page.getInitialProps = async () => {
 export default Page;
 ```
 
-#### what is zheleznaya?
+### what is zheleznaya?
 
 See [document](https://naoki-tomita.github.io/zheleznaya/dist/).
 
-##### [next ->](./getting-started)
+#### [next ->](./getting-started)

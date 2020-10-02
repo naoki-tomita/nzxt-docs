@@ -1,19 +1,19 @@
-## create first application
+# Create first application
 
-### install packages.
+## install packages.
 
 ```bash
 > yarn add nzxt zheleznaya
 ```
 
-### create pages.
+## create pages.
 
 ```bash
 > mkdir pages
 > touch pages/index.tsx
 ```
 
-### implement pages.
+## implement pages.
 
 ```tsx
 import { h, Component } from "nzxt/h";
@@ -34,12 +34,12 @@ Index.getInitialProps = async () => {
 }
 ```
 
-### run server.
+## run server.
 
 ```bash
 > yarn nzxt
 ```
 
-You can see on `localhost:8080`
+You can see on [`http://localhost:8080`](http://localhost:8080)
 
-##### [<- back](./getting-started) / [next ->](./api-references-cli)
+#### [<- back](./getting-started) / [next ->](./api-references-cli)

@@ -4,10 +4,7 @@ import marked from "marked";
 import { Header } from "../../components/Header";
 import { Content } from "../../components/Content";
 import { Html } from "../../components/Html";
-
-function readFileAsync(path: string) {
-  return new Promise<string>((ok, ng) => readFile(path, (e, d) => e ? ng(e) : ok(d.toString())));
-}
+import { readFileAsync } from "../../FSUtils";
 
 function markedAsync(md: string) {
   return new Promise<string>((ok, ng) => marked(md, (e, d) => e ? ng(e) : ok(d)));
