@@ -27,4 +27,4 @@ export default Page;
 
 See [document](https://naoki-tomita.github.io/zheleznaya/dist/).
 
-#### [next ->](./getting-started)
+##### [next ->](./getting-started)
