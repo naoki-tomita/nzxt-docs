@@ -42,4 +42,4 @@ Index.getInitialProps = async () => {
 
 You can see on [`http://localhost:8080`](http://localhost:8080)
 
-#### [<- back](./getting-started) / [next ->](./api-references-cli)
+#### [<- back](./introduction) / [next ->](./api-references-cli)

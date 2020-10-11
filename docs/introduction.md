@@ -25,6 +25,8 @@ export default Page;
 
 ### what is zheleznaya?
 
+React like frontend framework.
+
 See [document](https://naoki-tomita.github.io/zheleznaya/dist/).
 
-#### [next ->](./getting-started)
+#### [next ->](./create-first-application)

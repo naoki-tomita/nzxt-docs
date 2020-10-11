@@ -7,7 +7,7 @@
     "@types/marked": "^1.1.0",
     "marked": "^1.2.0",
     "nzxt": "^0.1.9",
-    "zheleznaya": "^0.1.11"
+    "zheleznaya": "^0.1.15"
   },
   "devDependencies": {
     "heroku": "^7.43.2"
