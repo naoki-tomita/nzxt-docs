@@ -22,5 +22,9 @@
   {
     "title": "API References | Error handling",
     "file": "api-references-error"
+  },
+  {
+    "title": "API References | Document template",
+    "file": "api-references-document"
   }
 ]
