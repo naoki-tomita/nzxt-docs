@@ -5296,10 +5296,10 @@ nwsapi@^2.1.3:
   resolved "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.2.0.tgz#204879a9e3d068ff2a55139c2c772780681a38b7"
   integrity sha512-h2AatdwYH+JHiZpv7pt/gSX1XoRGb7L/qSIeuqA6GwYoF9w1vP1cw42TO0aI2pNyshRK5893hNSl+1//vHK7hQ==
 
-nzxt@^0.1.9:
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/nzxt/-/nzxt-0.1.9.tgz#ed2e3e8cfca26ed3fc840674ec20bb1b699b5205"
-  integrity sha512-aMoVvuGD4U6BVeAu2MeYH8HYjtgrzriK/vCT5tZQA2frxaYRdtgdJb81FoxOlsH5fUTkH1KyqnF6XWftqORg7w==
+nzxt@^0.1.10:
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/nzxt/-/nzxt-0.1.10.tgz#a4249643167579df352a17ee567118322573e159"
+  integrity sha512-aAK8GAdmAtJE3Tj3i39OusRmCYQyHx9v+uzICsag7ayz27TYmaE+2WVtgBGWqagawVyWKl18K5wVhgJhBThowg==
   dependencies:
     "@babel/core" "^7.11.6"
     "@types/babel__core" "^7.1.10"
