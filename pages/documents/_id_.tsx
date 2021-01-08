@@ -1,5 +1,4 @@
 import { h, Component } from "nzxt/h";
-import { readFile } from "fs";
 import marked from "marked";
 import { Header } from "../../components/Header";
 import { Content } from "../../components/Content";
