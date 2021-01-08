@@ -952,10 +952,10 @@
     term-img "^4.1.0"
     urijs "1.19.2"
 
-"@heroku-cli/plugin-apps@^7.43.2":
-  version "7.43.2"
-  resolved "https://registry.yarnpkg.com/@heroku-cli/plugin-apps/-/plugin-apps-7.43.2.tgz#de07c4d52533e3c83b72603dac8a2bc803e2fb33"
-  integrity sha512-yILeN/iu2i1K22N5Z+6FiMy6WKRjL9Fa9F0MXwqsYM/3nsDuaMXj0L66tfruLgnE2zakFfQLK1klrxSQW1xK6Q==
+"@heroku-cli/plugin-apps@^7.47.5":
+  version "7.47.5"
+  resolved "https://registry.yarnpkg.com/@heroku-cli/plugin-apps/-/plugin-apps-7.47.5.tgz#4fca80eb2b3de7415d88cafde30123789c62e473"
+  integrity sha512-ZSa0sJ0X3YZ2yfivGQxGZ8SeRSaN338rSbpsD3Fxh6te8AB3uenrnnvl/Ii25vKT0DFBhElBaiGUkFKi3Nrmaw==
   dependencies:
     "@heroku-cli/color" "^1.1.14"
     "@heroku-cli/command" "^8.4.0"
@@ -968,10 +968,10 @@
     tslib "^1"
     urijs "^1.19.1"
 
-"@heroku-cli/plugin-auth@^7.43.0":
-  version "7.43.0"
-  resolved "https://registry.yarnpkg.com/@heroku-cli/plugin-auth/-/plugin-auth-7.43.0.tgz#fa3835a0b0d2b0cf4c41a227ecf3b573a8353ebf"
-  integrity sha512-wPRfjKrXDhcKtic9RP/2y6JHuAhA18vb4ODF17ZwH+NOKfIJTH5ism7XzCi9jqnJ5ruTzJacAaYwCbpMCSI1Lg==
+"@heroku-cli/plugin-auth@^7.47.4":
+  version "7.47.4"
+  resolved "https://registry.yarnpkg.com/@heroku-cli/plugin-auth/-/plugin-auth-7.47.4.tgz#7777617be54c87a0cbc863ef7a2f36e8e5d8ee9c"
+  integrity sha512-NVIbqcr+Hn4n1TYZtsZaSSOmCgXOwnkCbhyPXI3/kfwSG7VXCug7ClaIQMPErbFZWih327KypiBOjz7ZP+vXsA==
   dependencies:
     "@heroku-cli/color" "^1.1.14"
     "@heroku-cli/command" "^8.4.0"
@@ -1012,10 +1012,10 @@
     "true-myth" "2.2.3"
     valid-url "^1.0.9"
 
-"@heroku-cli/plugin-certs-v5@^7.43.1":
-  version "7.43.1"
-  resolved "https://registry.yarnpkg.com/@heroku-cli/plugin-certs-v5/-/plugin-certs-v5-7.43.1.tgz#4be2ee98cde3dd4eb90b09b869373202010842a7"
-  integrity sha512-8GSaUSXyquZu6hH+ui0jsXxolTj+cHCIGGVGB2lGQ7t2bgv2VrvPw2ox61IRUxPwILjx27LzNYB9Qqs4AS7pbw==
+"@heroku-cli/plugin-certs-v5@^7.47.5":
+  version "7.47.5"
+  resolved "https://registry.yarnpkg.com/@heroku-cli/plugin-certs-v5/-/plugin-certs-v5-7.47.5.tgz#490bee179fc9686b72c69a4d83e85ac0ff9e221e"
+  integrity sha512-Z/oMOZTzke8YK1mFAE/sU+0WP0FsVhhdpBZ5NcmgCKg8IXyxelTx4xtZ0tWKTAf22fMV4nrkx6gJEniGlZAAIQ==
   dependencies:
     co "4.6.0"
     co-wait "0.0.0"
@@ -1078,10 +1078,10 @@
     validator "^10.11.0"
     ws "^6.2.1"
 
-"@heroku-cli/plugin-config@^7.43.0":
-  version "7.43.0"
-  resolved "https://registry.yarnpkg.com/@heroku-cli/plugin-config/-/plugin-config-7.43.0.tgz#1ffe4c13495f84fb8df8a86a162f64ecd30b7b6d"
-  integrity sha512-kDjPs+k4zre39heotkGAD+IQBIzFaYvJNoP3FM26UveME5CXixVOl4yTK+QV7xKTrVMb+CAUtP4xRIbItoP89A==
+"@heroku-cli/plugin-config@^7.47.7":
+  version "7.47.7"
+  resolved "https://registry.yarnpkg.com/@heroku-cli/plugin-config/-/plugin-config-7.47.7.tgz#6ec68ef2becd6b22ee48f97eb806efede0e33dbd"
+  integrity sha512-DoaSpQJrbNVz2y60FA+7n6aeYfVFC9qhcmyayoa8i8gatyAx4S0FMFfAumLJaYTDyWBSUlBp+ryKJ46bU/UTiA==
   dependencies:
     "@heroku-cli/color" "^1.1.14"
     "@heroku-cli/command" "^8.4.0"
@@ -1147,10 +1147,10 @@
     lodash "^4.17.11"
     lodash.flatten "^4.4.0"
 
-"@heroku-cli/plugin-pg-v5@^7.43.3":
-  version "7.43.3"
-  resolved "https://registry.yarnpkg.com/@heroku-cli/plugin-pg-v5/-/plugin-pg-v5-7.43.3.tgz#25c6594445d4c6487c4f3696c99b53bffd12f91b"
-  integrity sha512-EuO38Lo1o93ai9vPA4h5Ih4whnag8j16XGvow6mwfdc46Uaiv5q7hbiA0dhLMaAkE73WAvSYhLtjs1v/qAlAYQ==
+"@heroku-cli/plugin-pg-v5@^7.47.6":
+  version "7.47.6"
+  resolved "https://registry.yarnpkg.com/@heroku-cli/plugin-pg-v5/-/plugin-pg-v5-7.47.6.tgz#e7247edccfbdb9fa0489da9649e264f53a603324"
+  integrity sha512-f0vEOzzvonwKK/1FKWYF73K1bpgJAxsz83cGLiliMFBz8vRtfp62zjR16WeqVyIyuFUpAcI5hYhOAQJGKgxMHw==
   dependencies:
     "@heroku-cli/plugin-addons" "^1.2.29"
     bytes "^3.1.0"
@@ -1165,11 +1165,12 @@
     smooth-progress "^1.1.0"
     strip-eof "^1.0.0"
     tunnel-ssh "^4.1.4"
+    uuid "^8.3.1"
 
-"@heroku-cli/plugin-pipelines@^7.43.0":
-  version "7.43.0"
-  resolved "https://registry.yarnpkg.com/@heroku-cli/plugin-pipelines/-/plugin-pipelines-7.43.0.tgz#7386a8e4dad2e93f19c902b1bc85aa8532a3a20e"
-  integrity sha512-r5lhEiLW+3fRLPXLSTurW8widQt/9zLGsBIRixWzMPbrhX5SsA0x5hN3jzQ55zTvW/bbdcQ1oLs7dCsNihMyaA==
+"@heroku-cli/plugin-pipelines@^7.47.2":
+  version "7.47.2"
+  resolved "https://registry.yarnpkg.com/@heroku-cli/plugin-pipelines/-/plugin-pipelines-7.47.2.tgz#b2007d1bd31c96f0a07964edf3b96991fdaa9649"
+  integrity sha512-GGBh4ccKJ1MyPQAPW7/qbdSOCgCMEkm3NH/tKwDV4SQtTJwWS2yLictXDGad+9l4TKkhXP9XZgIE7usOMHCkpw==
   dependencies:
     "@heroku-cli/color" "^1.1.14"
     "@heroku-cli/command" "^8.4.0"
@@ -1206,10 +1207,10 @@
     cli-ux "^4.9.3"
     lodash "^4.17.11"
 
-"@heroku-cli/plugin-redis-v5@^7.42.6":
-  version "7.42.6"
-  resolved "https://registry.yarnpkg.com/@heroku-cli/plugin-redis-v5/-/plugin-redis-v5-7.42.6.tgz#d05ac6d075e6df60961a99ec5b7d9c75b71a784b"
-  integrity sha512-F7NKXlGnZ+90zrlDSfftpTG+LuplwBey63gzrEhqgSVCxxYT7s9yJokPzqf3XIFRjJmsVwPCDhTIx1dKykSM5Q==
+"@heroku-cli/plugin-redis-v5@^7.45.0":
+  version "7.45.0"
+  resolved "https://registry.yarnpkg.com/@heroku-cli/plugin-redis-v5/-/plugin-redis-v5-7.45.0.tgz#f1c6098cd4e8062bc16b61b44294a2077a975158"
+  integrity sha512-MlxzDY+K4ZQ91WN5gCANullmwqSCmbxqhptNfFHSSajXRySeh9dnn4/Gy2Vrh0ZlTY6A1CmL44b+5nskRhYXnw==
   dependencies:
     heroku-cli-util "^8.0.11"
     redis-parser "^3.0.0"
@@ -1244,10 +1245,10 @@
     debug "^4.1.1"
     tslib "^1"
 
-"@heroku-cli/plugin-spaces@^7.43.0":
-  version "7.43.0"
-  resolved "https://registry.yarnpkg.com/@heroku-cli/plugin-spaces/-/plugin-spaces-7.43.0.tgz#1c3de45b80d0402348b65518e0889d9a73c9a6e9"
-  integrity sha512-6Y59rVu10ftQBrX4wj7/ZbPHdoCr4YxyUhcY4UVzNypjxVVMt43b95t2KXIZic0TOUCRValGFPFInTNSxXbNOQ==
+"@heroku-cli/plugin-spaces@^7.47.7":
+  version "7.47.7"
+  resolved "https://registry.yarnpkg.com/@heroku-cli/plugin-spaces/-/plugin-spaces-7.47.7.tgz#c4f754df162318389474e502c345b4364c71e154"
+  integrity sha512-pNxmG03zMWUVSZowRTsju8GEda5E202nXNTuU6XF9IWWy+zkqUiCF423VFOu/cLgJTZA1YiK6xgL5ff8biYRbA==
   dependencies:
     "@heroku-cli/command" "^8.4.0"
     "@heroku-cli/notifications" "^1.2.2"
@@ -4003,36 +4004,36 @@ heroku-exec-util@0.7.5:
     temp "0.8.3"
     uuid "3.2.1"
 
-heroku@^7.43.2:
-  version "7.44.0"
-  resolved "https://registry.yarnpkg.com/heroku/-/heroku-7.44.0.tgz#aa351e5c3d851f3c72dc286cecc7804c47dbafe2"
-  integrity sha512-aoSo61rIailqYbvXu3EcnhiDlwjvPlVDW2ups/aPDVOfnlgPHImB/FUn36JcLX/IrdxtXhcTjeVRUL7L4KdsKw==
+heroku@^7.47.7:
+  version "7.47.7"
+  resolved "https://registry.yarnpkg.com/heroku/-/heroku-7.47.7.tgz#e509fc4f9e6702e4ffd7a3e07a863f5263887267"
+  integrity sha512-TE2EeniemlAGLXYQwljbMgsU13TOMJNZcUfbFPGXS9Yvda6Vvb5tY1W0Kq4iSEpIrhhme0RibVloReuBSrisWg==
   dependencies:
     "@heroku-cli/color" "1.1.14"
     "@heroku-cli/command" "^8.4.0"
     "@heroku-cli/plugin-addons-v5" "^7.42.2"
-    "@heroku-cli/plugin-apps" "^7.43.2"
+    "@heroku-cli/plugin-apps" "^7.47.5"
     "@heroku-cli/plugin-apps-v5" "^7.43.0"
-    "@heroku-cli/plugin-auth" "^7.43.0"
+    "@heroku-cli/plugin-auth" "^7.47.4"
     "@heroku-cli/plugin-autocomplete" "^7.43.0"
     "@heroku-cli/plugin-buildpacks" "^7.43.0"
     "@heroku-cli/plugin-certs" "^7.43.0"
-    "@heroku-cli/plugin-certs-v5" "^7.43.1"
+    "@heroku-cli/plugin-certs-v5" "^7.47.5"
     "@heroku-cli/plugin-ci" "^7.43.0"
     "@heroku-cli/plugin-ci-v5" "^7.43.0"
-    "@heroku-cli/plugin-config" "^7.43.0"
+    "@heroku-cli/plugin-config" "^7.47.7"
     "@heroku-cli/plugin-container-registry-v5" "^7.42.12"
     "@heroku-cli/plugin-git" "^7.43.0"
     "@heroku-cli/plugin-local" "^7.43.0"
     "@heroku-cli/plugin-oauth-v5" "^7.42.12"
     "@heroku-cli/plugin-orgs-v5" "^7.43.0"
-    "@heroku-cli/plugin-pg-v5" "^7.43.3"
-    "@heroku-cli/plugin-pipelines" "^7.43.0"
+    "@heroku-cli/plugin-pg-v5" "^7.47.6"
+    "@heroku-cli/plugin-pipelines" "^7.47.2"
     "@heroku-cli/plugin-ps" "^7.43.0"
     "@heroku-cli/plugin-ps-exec" "2.3.8"
-    "@heroku-cli/plugin-redis-v5" "^7.42.6"
+    "@heroku-cli/plugin-redis-v5" "^7.45.0"
     "@heroku-cli/plugin-run" "^7.43.0"
-    "@heroku-cli/plugin-spaces" "^7.43.0"
+    "@heroku-cli/plugin-spaces" "^7.47.7"
     "@heroku-cli/plugin-status" "^7.43.0"
     "@heroku-cli/plugin-webhooks" "^7.43.0"
     "@oclif/command" "1.5.18"
@@ -7604,6 +7605,11 @@ uuid@^8.3.0:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.0.tgz#ab738085ca22dc9a8c92725e459b1d507df5d6ea"
   integrity sha512-fX6Z5o4m6XsXBdli9g7DtWgAx+osMsRRZFKma1mIUsLCz6vRvv+pz5VNbyu9UEDzpMWulZfvpgb/cmDXVulYFQ==
+
+uuid@^8.3.1:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 v8-compile-cache@^2.0.0:
   version "2.1.1"

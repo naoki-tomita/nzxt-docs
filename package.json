@@ -11,7 +11,7 @@
     "zheleznaya": "^0.1.15"
   },
   "devDependencies": {
-    "heroku": "^7.43.2"
+    "heroku": "^7.47.7"
   },
   "scripts": {
     "start": "nzxt & node HerokuWake.js"
