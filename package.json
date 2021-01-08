@@ -6,10 +6,14 @@
   "dependencies": {
     "@types/marked": "^1.1.0",
     "marked": "^1.2.0",
+    "node-fetch": "^2.6.1",
     "nzxt": "^0.1.10",
     "zheleznaya": "^0.1.15"
   },
   "devDependencies": {
     "heroku": "^7.43.2"
+  },
+  "scripts": {
+    "start": "nzxt & node HerokuWake.js"
   }
 }
