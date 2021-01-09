@@ -1,19 +1,21 @@
 {
   "name": "nzxt-docs",
-  "version": "1.0.0",
+  "version": "0.1.11",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "@types/marked": "^1.1.0",
     "marked": "^1.2.0",
     "node-fetch": "^2.6.1",
-    "nzxt": "^0.1.10",
+    "nzxt": "^0.1.12",
     "zheleznaya": "^0.1.15"
   },
   "devDependencies": {
     "heroku": "^7.47.7"
   },
   "scripts": {
+    "build": "nzxt build",
+    "dev": "nzxt start",
     "start": "nzxt & node HerokuWake.js"
   }
 }
