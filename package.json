@@ -4,11 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@types/marked": "^1.1.0",
-    "marked": "^1.2.0",
+    "@types/marked": "^2.0.1",
+    "marked": "^2.0.1",
     "node-fetch": "^2.6.1",
-    "nzxt": "^0.1.12",
-    "zheleznaya": "^0.1.15"
+    "nzxt": "^0.1.15",
+    "zheleznaya": "^0.1.17"
   },
   "devDependencies": {
     "heroku": "^7.47.7"
