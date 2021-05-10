@@ -16,6 +16,6 @@
   "scripts": {
     "build": "nzxt build",
     "dev": "nzxt start",
-    "start": "nzxt & node HerokuWake.js"
+    "start": "nzxt"
   }
 }
