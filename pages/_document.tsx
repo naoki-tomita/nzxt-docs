@@ -10,6 +10,14 @@ const Document: Component = (_, children) => {
         <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/components/prism-core.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/plugins/autoloader/prism-autoloader.min.js"></script>
         <title>nzxt document</title>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-J0MJBS66XD"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {"{"}dataLayer.push(arguments){"}"};
+          gtag('js', new Date());
+
+          gtag('config', 'G-J0MJBS66XD');
+        </script>
       </head>
       <body>
         {children}
