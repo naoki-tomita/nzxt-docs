@@ -35,7 +35,7 @@ const Document: Component<{
 }
 
 Document.getInitialPrpos = async ({ params }) => {
-  const [toc, html]: [Array<{ title: string; file: string }>] = await Promise.all([
+  const [toc, html]: [Array<{ title: string; file: string }>, string] = await Promise.all([
     readFileAsync("./docs/table-of-contents.json"),
     readFileAsync(`./docs/${params.id}.md`).then(markedAsync),
   ]);
