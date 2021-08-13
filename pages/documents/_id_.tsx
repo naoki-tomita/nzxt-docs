@@ -36,7 +36,7 @@ const Document: Component<{
 
 Document.getInitialPrpos = async ({ params }) => {
   const [toc, html]: [Array<{ title: string; file: string }>, string] = await Promise.all([
-    readFileAsync("./docs/table-of-contents.json"),
+    readFileAsync("./docs/table-of-contents.json").then(it => JSON.parse(it)),
     readFileAsync(`./docs/${params.id}.md`).then(markedAsync),
   ]);
   const currentIndex = toc.findIndex(it => it.file === params.id);
