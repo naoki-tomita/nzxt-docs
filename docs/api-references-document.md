@@ -21,5 +21,3 @@ const Document = (_: {}, children: Component[]) => {
   );
 }
 ```
-
-#### [<- back](./api-references-error)

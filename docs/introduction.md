@@ -28,5 +28,3 @@ export default Page;
 React like frontend framework.
 
 See [document](https://naoki-tomita.github.io/zheleznaya/dist/).
-
-#### [next ->](./create-first-application)

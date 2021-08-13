@@ -12,5 +12,3 @@ interface ErrorComponentProps {
   error: Error;
 }
 ```
-
-#### [<- back](./api-references-data-fetching) / [next ->](./api-references-document)

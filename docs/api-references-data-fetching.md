@@ -31,5 +31,3 @@ export default App;
 ```
 
 > This is inspired by Next.js
-
-#### [<- back](./api-references-cli) / [next ->](./api-references-error)

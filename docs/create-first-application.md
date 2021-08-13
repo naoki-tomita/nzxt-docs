@@ -1,4 +1,4 @@
-# Create first application
+# Create your first application
 
 ## install packages.
 
@@ -41,5 +41,3 @@ Index.getInitialProps = async () => {
 ```
 
 You can see on [`http://localhost:8080`](http://localhost:8080)
-
-#### [<- back](./introduction) / [next ->](./api-references-cli)
