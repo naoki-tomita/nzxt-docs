@@ -16,8 +16,8 @@ interface ContentLink {
 
 const Document: Component<{ 
   html: string; 
-  next: ContentLink; 
-  prev: ContentLink;
+  next?: ContentLink;
+  prev?: ContentLink;
 }> = ({ html, next, prev }) => {
   return (
     <div>
@@ -25,9 +25,9 @@ const Document: Component<{
       <Content>
         <Html html={html}/>
         <h4>
-          {prev && <a href={`./${prev.file}`}>{"<- prev"}</a>}
-          {prev && next && " / "}
-          {next && <a href={`./${next.file}`}>{"next ->"}</a>}
+          {prev ? <a href={`./${prev.file}`}>{"<- prev"}</a> : ""}
+          {(prev && next) ? " / " : ""}
+          {next ? <a href={`./${next.file}`}>{"next ->"}</a> : ""}
         </h4>
       </Content>
     </div>
