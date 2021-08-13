@@ -5,7 +5,7 @@ If page does not exist then you can see default browser error page.
 
 `_error.tsx` is rendering only on server-side-rendering.
 
-The types of Props are as follows. (* This feature will be implemented.)
+The types of Props are as follows.
 
 ```typescript
 interface ErrorComponentProps {
