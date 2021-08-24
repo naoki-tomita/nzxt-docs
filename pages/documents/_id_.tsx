@@ -9,13 +9,13 @@ function markedAsync(md: string) {
   return new Promise<string>((ok, ng) => marked(md, (e, d) => e ? ng(e) : ok(d)));
 }
 
-interface ContentLink { 
-  title: string; 
-  file: string; 
+interface ContentLink {
+  title: string;
+  file: string;
 }
 
-const Document: Component<{ 
-  html: string; 
+const Document: Component<{
+  html: string;
   next?: ContentLink;
   prev?: ContentLink;
 }> = ({ html, next, prev }) => {

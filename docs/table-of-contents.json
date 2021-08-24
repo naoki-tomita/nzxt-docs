@@ -22,5 +22,9 @@
   {
     "title": "API References | Document template",
     "file": "api-references-document"
+  },
+  {
+    "title": "API References | Static image serving",
+    "file": "api-references-static-image"
   }
 ]
