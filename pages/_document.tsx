@@ -9,6 +9,7 @@ const Document: Component = (_, children) => {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/themes/prism-okaidia.min.css"></link>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/components/prism-core.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/plugins/autoloader/prism-autoloader.min.js"></script>
+        <link rel="shortcut icon" href="/images/favicon.jpg" />
         <title>nzxt document</title>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-J0MJBS66XD"></script>
         <script>

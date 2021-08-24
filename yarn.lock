@@ -2237,10 +2237,10 @@ npm-run-path@^3.0.0:
   dependencies:
     path-key "^3.0.0"
 
-nzxt@^0.1.16:
-  version "0.1.16"
-  resolved "https://registry.yarnpkg.com/nzxt/-/nzxt-0.1.16.tgz#ee76bbdf2936fa5366a6d41af7268f531ad641f9"
-  integrity sha512-W/zMWTYFN06os00hVf8+eHBqjYq7YHTdQKWXAHlZr1rgFFxcADLRYTfqUIkXRk/+mPw3vgsbaBnQNWQZoP+OkQ==
+nzxt@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/nzxt/-/nzxt-0.2.1.tgz#fe60b47c907e6ec917c89904673130565e463a5f"
+  integrity sha512-JRQpkuH4GFMdeHTUH6F33hVOIqkOFGqI+DO/KRNYNrrZRuCLkbg6m2DFb0ZxYBtB1I8BBwxkxrHs3Du/tPJtaw==
   dependencies:
     esbuild "^0.12.15"
     summer-framework "^0.2.4"
