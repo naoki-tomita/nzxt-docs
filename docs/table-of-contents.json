@@ -8,23 +8,41 @@
     "file": "create-first-application"
   },
   {
-    "title": "API References | CLI",
-    "file": "api-references-cli"
+    "title": "Basic features",
+    "contents": [
+      {
+        "title": "Pages",
+        "file": "pages"
+      },
+      {
+        "title": "Data fetching",
+        "file": "data-fetching"
+      },
+      {
+        "title": "Error handling",
+        "file": "error"
+      },
+      {
+        "title": "Document template",
+        "file": "document"
+      },
+      {
+        "title": "Static image serving",
+        "file": "static-image"
+      }
+    ]
   },
   {
-    "title": "API References | Data fetching",
-    "file": "api-references-data-fetching"
+    "title": "API References",
+    "contents": [
+      {
+        "title": "CLI",
+        "file": "cli"
+      }
+    ]
   },
   {
-    "title": "API References | Error handling",
-    "file": "api-references-error"
-  },
-  {
-    "title": "API References | Document template",
-    "file": "api-references-document"
-  },
-  {
-    "title": "API References | Static image serving",
-    "file": "api-references-static-image"
+    "title": "FAQ",
+    "file": "faq"
   }
 ]

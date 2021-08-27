@@ -1,4 +1,4 @@
-# API References | Error handling
+# Error handling
 
 When error has occured at fetching `getInitialProps` then nzxt shows special page named `pages/_error.tsx`.
 If page does not exist then you can see default browser error page.

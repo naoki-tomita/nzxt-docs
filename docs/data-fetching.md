@@ -1,4 +1,4 @@
-# API References | Data fetching
+# Data fetching
 
 Page component has `getInitialProps` function that is data fetch means during server-side-rendering.
 

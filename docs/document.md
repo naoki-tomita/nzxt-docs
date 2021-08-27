@@ -1,4 +1,4 @@
-# API References | Document template
+# Document template
 
 When you want to customize html template. You can customize template by create special file named `pages/_document.tsx`.
 

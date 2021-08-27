@@ -1,4 +1,4 @@
-# API References | Static image serving
+# Static image serving
 
 nzxt can serve static image file. If you put images in `/public/images/:filename` then nzxt serve at `/images/:filename` path.
 

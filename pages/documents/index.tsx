@@ -5,7 +5,28 @@ import { join } from "path"
 import { readFileAsync } from "../../FSUtils";
 
 interface Props {
-  toc: Array<{ title: string, file: string }>
+  toc: Content[];
+}
+
+interface Content {
+  title: string;
+  file?: string;
+  contents?: Content[];
+}
+
+const ContentList: Component<{ toc: Content[] }> = ({ toc }) => {
+  return (
+    <ul>
+      {toc.map(({ title, file, contents }) =>
+        file
+          ? <li><a href={`/documents/${file}`}>{title}</a></li>
+          : <li>
+              {title}
+              <ContentList toc={contents!} />
+            </li>
+      )}
+    </ul>
+  );
 }
 
 const Documents: Component<Props> = ({ toc }) => {
@@ -14,9 +35,7 @@ const Documents: Component<Props> = ({ toc }) => {
       <Header />
       <Content>
         <h1>Contents</h1>
-        <ul>
-          {toc.map(({ title, file }) => <li><a href={`/documents/${file}`}>{title}</a></li>)}
-        </ul>
+        <ContentList toc={toc} />
       </Content>
     </div>
   )

@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "commonjs",
-    "lib": ["DOM", "ES2015"],
+    // "lib": ["DOM", "ES2015"],
     "jsx": "react",
     "jsxFactory": "h",
     "isolatedModules": true,

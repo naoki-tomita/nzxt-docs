@@ -20,6 +20,11 @@ const Document: Component = (_, children) => {
 
           gtag('config', 'G-J0MJBS66XD');
         </script>
+        <style>
+          body {"{"}
+            max-width: 1024px;
+          {"}"}
+        </style>
       </head>
       <body>
         {children}
