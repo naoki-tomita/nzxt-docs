@@ -13,6 +13,8 @@
 > touch pages/index.tsx
 ```
 
+> You must create typescript code.
+
 ## implement pages.
 
 ```tsx

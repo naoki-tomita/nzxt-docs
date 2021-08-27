@@ -38,6 +38,10 @@
       {
         "title": "CLI",
         "file": "cli"
+      },
+      {
+        "title": "Routing",
+        "file": "routing"
       }
     ]
   },
