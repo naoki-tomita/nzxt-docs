@@ -1,5 +1,5 @@
 build:
   docker:
-    web: Dockerfile
+    web: env/docker/Dockerfile
 run:
   web: yarn start & node HerokuWake.js
