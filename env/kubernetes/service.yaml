@@ -1,0 +1,13 @@
+apiVersion: v1
+metadata:
+  name: nzxt-docs-svc
+kind: Service
+spec:
+  ports:
+  - name: nzxt-docs-svc
+    protocol: TCP
+    port: 80
+    targetPort: 80
+  type: NodePort
+  selector:
+    app: nzxt-docs

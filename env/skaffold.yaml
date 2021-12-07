@@ -1,0 +1,22 @@
+apiVersion: skaffold/v2beta24
+kind: Config
+metadata:
+  name: env
+build:
+  artifacts:
+  - image: uedakojiro/nzxt-docs
+    context: ../
+    docker:
+      dockerfile: env/docker/Dockerfile
+  local:
+    useBuildkit: true
+deploy:
+  kubectl:
+    manifests:
+    - kubernetes/deployment.yaml
+    - kubernetes/service.yaml
+portForward:
+- resourceType: service
+  resourceName: nzxt-docs-svc
+  port: 80
+  localPort: 8080
