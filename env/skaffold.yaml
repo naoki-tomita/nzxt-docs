@@ -1,13 +1,11 @@
 apiVersion: skaffold/v2beta24
 kind: Config
-metadata:
-  name: env
 build:
   artifacts:
   - image: uedakojiro/nzxt-docs
     context: ../
     docker:
-      dockerfile: env/docker/Dockerfile
+      dockerfile: ./Dockerfile
   local:
     useBuildkit: true
 deploy:
