@@ -2,7 +2,7 @@ apiVersion: skaffold/v2beta24
 kind: Config
 build:
   artifacts:
-  - image: uedakojiro/nzxt-docs
+  - image: ghcr.io/naoki-tomita/nzxt-docs
     context: ../
     docker:
       dockerfile: ./Dockerfile
