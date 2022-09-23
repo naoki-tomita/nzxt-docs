@@ -4,4 +4,4 @@ COPY ./app .
 RUN yarn --production
 RUN yarn build
 
-CMD ["yarn", "start"]
+CMD ["yarn", "serve"]

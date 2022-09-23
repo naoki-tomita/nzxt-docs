@@ -15,6 +15,7 @@
   "scripts": {
     "build": "nzxt build",
     "dev": "nzxt start",
+    "serve": "nzxt serve",
     "start": "nzxt"
   }
 }
