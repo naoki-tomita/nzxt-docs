@@ -6,6 +6,7 @@
   "dependencies": {
     "@types/marked": "^2.0.1",
     "@types/node": "^16.0.0",
+    "@types/node-fetch": "^2.6.2",
     "marked": "^2.1.3",
     "node-fetch": "^2.6.1",
     "nzxt": "^0.3.6",
