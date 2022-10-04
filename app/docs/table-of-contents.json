@@ -46,6 +46,10 @@
     ]
   },
   {
+    "title": "Interactive demo",
+    "file": "interactive-demo"
+  },
+  {
     "title": "FAQ",
     "file": "faq"
   }

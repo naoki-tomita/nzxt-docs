@@ -242,10 +242,10 @@ node-fetch@^2.6.1:
   dependencies:
     whatwg-url "^5.0.0"
 
-nzxt@^0.3.5:
-  version "0.3.5"
-  resolved "https://registry.yarnpkg.com/nzxt/-/nzxt-0.3.5.tgz#6e58e8b3effe3de1e356a80eb5b34c9223d539b7"
-  integrity sha512-Sq+NbZu/oz7vCAZb5n5IfKmWJsuGCKHcC86wGV2ZJ8+7E/kc6qmXmPoMnUMsKygtspIvuNKHazUV6VgJaPxGFA==
+nzxt@^0.3.6:
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/nzxt/-/nzxt-0.3.6.tgz#a8d592623c99ca7aa73f3af635481a600af1f075"
+  integrity sha512-OXetLA7a2JQoGO84WcVoCOjeP+FH5dj4i124M6TWQb31Cn9MvHztgX6yB1BzAvYWkhqI5hGxOMg04qJU/Ks0wQ==
   dependencies:
     esbuild "^0.15.9"
     source-map-support "^0.5.21"
@@ -323,7 +323,7 @@ yn@3.1.1:
   resolved "https://registry.yarnpkg.com/yn/-/yn-3.1.1.tgz#1e87401a09d767c1d5eab26a6e4c185182d2eb50"
   integrity sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==
 
-zheleznaya@^0.1.18:
-  version "0.1.18"
-  resolved "https://registry.yarnpkg.com/zheleznaya/-/zheleznaya-0.1.18.tgz#79c814a0fd0650f3d5111b8b268bba5f1ecec9b2"
-  integrity sha512-0c0Wk6shyAwMaMpxNDXX8oJoRa0tZ87XmVx25wl56pj4leKtRHiXrqjEYZ9x7LTCbA1FINmNU4urhOdxa+pl8w==
+zheleznaya@^0.1.19:
+  version "0.1.19"
+  resolved "https://registry.yarnpkg.com/zheleznaya/-/zheleznaya-0.1.19.tgz#5f46714f3f2f63a11d41f72f6276d4ca3a17700f"
+  integrity sha512-VYLdqyG/p+6d0A9VgJIkk7kSza2xjJSBtpRKcn9ucF6EaJPJc815MxldHw3IaH9ZHeqXSJABqO8qKmP5iJutCQ==
