@@ -17,7 +17,7 @@ interface Content {
 
 const ContentList: Component<{ contents: Content[], current: Content }> = ({ contents, current }) => {
   return (
-    <ul style={{ paddingLeft: "0", listStyle: "none" }}>
+    <ul style={{ paddingLeft: "0", listStyle: "none", position: "sticky", top: "2rem" }}>
       {contents.map(c =>
         c.file
           ? current.file === c.file
@@ -50,7 +50,7 @@ const Document: Component<{
             <ContentList contents={contents} current={current} />
           </div>
           <div style={{ width: "720px" }}>
-            <Html html={html}/>
+            <Html html={html} />
             <h4>
               {prev ? <a href={`./${prev.file}`}>{"<- prev"}</a> : ""}
               {(prev && next) ? " / " : ""}
