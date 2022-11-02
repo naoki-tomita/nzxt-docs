@@ -4,6 +4,7 @@ import { Header } from "../../components/Header";
 import { Content } from "../../components/Content";
 import { Html } from "../../components/Html";
 import { readFileAsync } from "../../FSUtils";
+import { styled } from "zstyl";
 
 function markedAsync(md: string) {
   return new Promise<string>((ok, ng) => marked(md, (e, d) => e ? ng(e) : ok(d)));
@@ -15,24 +16,53 @@ interface Content {
   contents?: Content[];
 }
 
+const List = styled.ul`
+  padding-left: 0;
+  list-style: none;
+  position: sticky;
+  top: 2rem;
+`;
+
+const Link = styled.a`
+  text-decoration: none;
+`;
+
+const NestedContents = styled.div`
+  padding-left: 12px;
+`
+
 const ContentList: Component<{ contents: Content[], current: Content }> = ({ contents, current }) => {
   return (
-    <ul style={{ paddingLeft: "0", listStyle: "none", position: "sticky", top: "2rem" }}>
+    <List>
       {contents.map(c =>
         c.file
           ? current.file === c.file
-            ? <li><b><a style={{ textDecoration: "none" }} href={`./${c.file}`}>{c.title}</a></b></li>
+            ? <li><b><Link href={`./${c.file}`}>{c.title}</Link></b></li>
             : <li><a href={`./${c.file}`}>{c.title}</a></li>
           : <li>
               {c.title}
-              <div style={{ paddingLeft: "12px" }}>
+              <NestedContents>
                 <ContentList contents={c.contents!} current={current} />
-              </div>
+              </NestedContents>
             </li>
       )}
-    </ul>
+    </List>
   );
 }
+
+const CenteredFlex = styled.div`
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+`;
+
+const TableOfContents = styled.div`
+  width: 200px;
+`;
+
+const ContentsArea = styled.div`
+  width: 720px;
+`;
 
 const Document: Component<{
   html: string;
@@ -45,19 +75,19 @@ const Document: Component<{
     <div>
       <Header />
       <Content>
-        <div style={{ display: "flex", gap: "16px", justifyContent: "center" }}>
-          <div style={{ width: "200px" }}>
+        <CenteredFlex>
+          <TableOfContents>
             <ContentList contents={contents} current={current} />
-          </div>
-          <div style={{ width: "720px" }}>
-            <Html html={html} />
+          </TableOfContents>
+          <ContentsArea>
+            <Html html={html}/>
             <h4>
               {prev ? <a href={`./${prev.file}`}>{"<- prev"}</a> : ""}
               {(prev && next) ? " / " : ""}
               {next ? <a href={`./${next.file}`}>{"next ->"}</a> : ""}
             </h4>
-          </div>
-        </div>
+          </ContentsArea>
+        </CenteredFlex>
       </Content>
     </div>
   );

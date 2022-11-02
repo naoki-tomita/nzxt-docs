@@ -1,10 +1,19 @@
 import { h, Component } from "zheleznaya";
-import { isDarkMode } from "../Utils";
+import { styled } from "zstyl";
+
+const Heading = styled.h1`
+  font-size: 3.25em;
+`;
+
+const Link = styled.a`
+  text-decoration: none;
+  color: var(--nc-tx-1);
+`;
 
 export const Header: Component = () => {
   return (
     <header>
-      <h1 style={{ fontSize: "3.25em" }}><a style={{ textDecoration: "none", color: "var(--nc-tx-1)" }} href="/">nzxt documentation</a></h1>
+      <Heading><Link href="/">nzxt documentation</Link></Heading>
     </header>
   )
 }

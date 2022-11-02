@@ -1,24 +1,36 @@
 import { h, Component } from "nzxt/h";
+import { styled } from "zstyl";
 import { Content } from "../components/Content";
 import { Header } from "../components/Header";
+
+const CenteredFlex = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
+const Heading1 = styled.h1`
+  text-align: center;
+  font-size: 4.2em;
+`;
+
+const Heading2 = styled.h2`
+  text-align: center;
+`;
 
 const Index: Component = () => {
   return (
     <div>
       <Header />
       <Content>
-        <div style={{ display: "flex", justifyContent: "center" }}>
+        <CenteredFlex>
           <div>
-            <div style={{
-              display: "flex",
-              justifyContent: "center"
-            }}>
+            <CenteredFlex>
               <img width={480} src="/images/logo_dark.svg" />
-            </div>
-            <h1 style={{ textAlign: "center", fontSize: "4.2em" }} >SSR framework <br/>for Zheleznaya</h1>
-            <h2 style={{ textAlign: "center" }} >See <a href="/documents">documentation</a></h2>
+            </CenteredFlex>
+            <Heading1>SSR framework <br/>for Zheleznaya</Heading1>
+            <Heading2>See <a href="/documents">documentation</a></Heading2>
           </div>
-        </div>
+        </CenteredFlex>
       </Content>
     </div>
   )
