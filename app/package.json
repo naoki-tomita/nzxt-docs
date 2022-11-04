@@ -11,7 +11,7 @@
     "node-fetch": "^2.6.1",
     "nzxt": "^0.3.9",
     "zheleznaya": "^0.1.19",
-    "zstyl": "^0.0.7"
+    "zstyl": "^0.1.1"
   },
   "scripts": {
     "build": "nzxt build",

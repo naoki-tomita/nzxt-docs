@@ -19,8 +19,6 @@ interface Content {
 const List = styled.ul`
   padding-left: 0;
   list-style: none;
-  position: sticky;
-  top: 2rem;
 `;
 
 const Link = styled.a`
@@ -51,16 +49,31 @@ const ContentList: Component<{ contents: Content[], current: Content }> = ({ con
 }
 
 const CenteredFlex = styled.div`
+  @media (max-width: 920px) {
+    flex-direction: column;
+  }
   display: flex;
   gap: 16px;
   justify-content: center;
 `;
 
 const TableOfContents = styled.div`
+  @media (max-width: 920px) {
+    width: auto;
+    height: 200px;
+    overflow: scroll;
+    position: relative;
+    top: 0;
+  }
   width: 200px;
+  position: sticky;
+  top: 2rem;
 `;
 
 const ContentsArea = styled.div`
+  @media (max-width: 920px) {
+    width: auto;
+  }
   width: 720px;
 `;
 
