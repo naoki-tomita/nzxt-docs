@@ -24,6 +24,9 @@ const Document: Component = (_, children) => {
           body {"{"}
             max-width: 1024px;
           {"}"}
+          pre {"{"}
+            background-color: #272822;
+          {"}"}
         </style>
       </head>
       <body>
