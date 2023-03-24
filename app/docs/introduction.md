@@ -4,7 +4,7 @@ T.B.D
 
 ## what is nzxt?
 
-A server side rendering framework for [zheleznaya](https://zheleznaya.netlify.app/#index))
+A server side rendering framework for [zheleznaya](https://zheleznaya.netlify.app/#index)
 
 This is like Next.js or Nuxt.js.
 
@@ -27,4 +27,4 @@ export default Page;
 
 React like frontend framework.
 
-See [document](https://zheleznaya.netlify.app/#index))
+See [document](https://zheleznaya.netlify.app/#index)
