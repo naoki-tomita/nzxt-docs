@@ -34,7 +34,7 @@ const Documents: Component<Props> = ({ toc }) => {
   return (
     <div>
       <Header />
-      <Title label="contents | nzxt document" />
+      <Title label="Contents | nzxt document" />
       <Content>
         <h1>Contents</h1>
         <ContentList toc={toc} />
