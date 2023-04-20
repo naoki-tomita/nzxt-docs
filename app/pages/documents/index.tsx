@@ -3,6 +3,7 @@ import { Content } from "../../components/Content";
 import { Header } from "../../components/Header";
 import { join } from "path"
 import { readFileAsync } from "../../FSUtils";
+import { Title } from "../../components/Title";
 
 interface Props {
   toc: Content[];
@@ -33,6 +34,7 @@ const Documents: Component<Props> = ({ toc }) => {
   return (
     <div>
       <Header />
+      <Title label="contents | nzxt document" />
       <Content>
         <h1>Contents</h1>
         <ContentList toc={toc} />

@@ -2,6 +2,7 @@ import { h, Component } from "nzxt/h";
 import { styled } from "zstyl";
 import { Content } from "../components/Content";
 import { Header } from "../components/Header";
+import { Title } from "../components/Title";
 
 const CenteredFlex = styled.div`
   display: flex;
@@ -21,6 +22,7 @@ const Index: Component = () => {
   return (
     <div>
       <Header />
+      <Title label="nzxt document" />
       <Content>
         <CenteredFlex>
           <div>

@@ -5,6 +5,7 @@ import { Content } from "../../components/Content";
 import { Html } from "../../components/Html";
 import { readFileAsync } from "../../FSUtils";
 import { styled } from "zstyl";
+import { Title } from "../../components/Title";
 
 function markedAsync(md: string) {
   return new Promise<string>((ok, ng) => marked(md, (e, d) => e ? ng(e) : ok(d)));
@@ -87,6 +88,7 @@ const Document: Component<{
   return (
     <div>
       <Header />
+      <Title label={`${current.title} | nzxt document`} />
       <Content>
         <CenteredFlex>
           <TableOfContents>
