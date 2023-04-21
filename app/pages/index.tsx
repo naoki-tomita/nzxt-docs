@@ -12,10 +12,12 @@ const CenteredFlex = styled.div`
 const Heading1 = styled.h1`
   text-align: center;
   font-size: 4.2em;
+  border: none;
 `;
 
 const Heading2 = styled.h2`
   text-align: center;
+  border: none;
 `;
 
 const Index: Component = () => {
