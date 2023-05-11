@@ -13,6 +13,10 @@ const Heading1 = styled.h1`
   text-align: center;
   font-size: 4.2em;
   border: none;
+
+  @media (max-width: 560px) {
+    font-size: 2.5em;
+  }
 `;
 
 const Heading2 = styled.h2`
