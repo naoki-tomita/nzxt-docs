@@ -24,4 +24,4 @@ jobs:
     - name: Build the Docker image
       run: docker buildx build . -f env/docker/Dockerfile --platform linux/amd64,linux/arm64  -t ghcr.io/${{ github.repository }}:latest --push
     - name: Deploy docker container
-      run: "curl -m 60 http://www.nzxt-docs.tk/.webhook -H 'Authorization: Bearer ${{ secrets.ACCESS_TOKEN }}'"
+      run: "curl -m 60 http://www.nzxt.tech/.webhook -H 'Authorization: Bearer ${{ secrets.ACCESS_TOKEN }}'"
