@@ -4,14 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@types/marked": "^2.0.1",
-    "@types/node": "^16.0.0",
-    "@types/node-fetch": "^2.6.2",
-    "marked": "^2.1.3",
-    "node-fetch": "^2.6.1",
-    "nzxt": "^0.3.10",
-    "zheleznaya": "^0.1.21",
-    "zstyl": "^0.1.5"
+    "@types/marked": "^6.0.0",
+    "@types/node": "^20.8.10",
+    "marked": "^9.1.4",
+    "nzxt": "^0.3.11",
+    "zheleznaya": "^0.2.3",
+    "zstyl": "^0.2.1"
   },
   "scripts": {
     "build": "nzxt build",
