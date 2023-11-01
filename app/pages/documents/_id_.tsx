@@ -1,15 +1,11 @@
 import { h, Component } from "nzxt/h";
-import marked from "marked";
+import { marked } from "marked";
 import { Header } from "../../components/Header";
 import { Content } from "../../components/Content";
 import { Html } from "../../components/Html";
 import { readFileAsync } from "../../FSUtils";
 import { styled } from "zstyl";
 import { Title } from "../../components/Title";
-
-function markedAsync(md: string) {
-  return new Promise<string>((ok, ng) => marked(md, (e, d) => e ? ng(e) : ok(d)));
-}
 
 interface Content {
   title: string;
@@ -111,7 +107,7 @@ const Document: Component<{
 Document.getInitialPrpos = async ({ params }) => {
   const [toc, html]: [Content[], string] = await Promise.all([
     readFileAsync("./docs/table-of-contents.json").then(it => JSON.parse(it)),
-    readFileAsync(`./docs/${params.id}.md`).then(markedAsync),
+    readFileAsync(`./docs/${params.id}.md`).then(marked),
   ]);
   const flatToc = toc.map(it => it.contents ? it.contents : it).flat();
   const currentIndex = flatToc.findIndex(it => it.file === params.id);

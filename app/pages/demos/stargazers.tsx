@@ -1,5 +1,4 @@
 import { Component, h } from "nzxt/h";
-import fetch from "node-fetch";
 
 const Counter: Component<{ stargazersCount: number }> = ({ stargazersCount }) => {
   return (
