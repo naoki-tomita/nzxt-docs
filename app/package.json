@@ -7,9 +7,9 @@
     "@types/marked": "^6.0.0",
     "@types/node": "^20.8.10",
     "marked": "^9.1.4",
-    "nzxt": "^0.3.11",
+    "nzxt": "^0.3.12",
     "zheleznaya": "^0.2.3",
-    "zstyl": "^0.2.1"
+    "zstyl": "^0.2.3"
   },
   "scripts": {
     "build": "nzxt build",

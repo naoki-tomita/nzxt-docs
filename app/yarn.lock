@@ -183,10 +183,10 @@ ms@2.1.2:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-nzxt@^0.3.11:
-  version "0.3.11"
-  resolved "https://registry.yarnpkg.com/nzxt/-/nzxt-0.3.11.tgz#aefe965958c545487af5a3d93f4641dd0bac2ae2"
-  integrity sha512-X9K4l+ynttJgQHB49Q8JyWXI/gdgS3NwVKV/vqZP9SM+6kr8r6vx97WTWx4c4NHUJhENe49g2PnH05rAhbyxHA==
+nzxt@^0.3.12:
+  version "0.3.12"
+  resolved "https://registry.yarnpkg.com/nzxt/-/nzxt-0.3.12.tgz#69b13185e08c42c80afcd1fe7d09019d6549e386"
+  integrity sha512-iHNsAk/KXYRVuZQT88FMr4y5IjfyoWC8rqQBt/jJsYQJhZfwXdla1i669al79zv17QHLI0xz29mQQne+DMXqSw==
   dependencies:
     esbuild "^0.19.5"
     esbuild-register "^3.5.0"
@@ -221,7 +221,7 @@ zheleznaya@^0.2.3:
   resolved "https://registry.yarnpkg.com/zheleznaya/-/zheleznaya-0.2.3.tgz#a953b9862f45ca1dc3a6e69ba75250a1e3139ee1"
   integrity sha512-Is3bAA5DFxneIfwEErPAipdPWlGzW8cCWRpk+K3Zm0sdzRhK+pAE1GPGhPP+69eIvZN2dwNTtfKTJhanS3mAcA==
 
-zstyl@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/zstyl/-/zstyl-0.2.1.tgz#d881445b70ca5ba2d64e2d3bb0b4439de1b05a0d"
-  integrity sha512-8xKq1IWH4LEoPiTpqNOESVBaJTGW4+md8fB3exoEpgcQdS5Eh4NI6+E78wv5cPV0IqDERu1+nxtOG622DgyNrg==
+zstyl@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/zstyl/-/zstyl-0.2.3.tgz#fe7016e16fd067501722022298e815b10cd09797"
+  integrity sha512-BDt6KS4rmp8ttBqSDPN+buLXYmDP/CYTtpzj9ZX2IiiAAFPb4+VK808DikZOuVN3IqZcAG1mP6TigYUjwvex+g==
