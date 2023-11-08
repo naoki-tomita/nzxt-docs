@@ -183,10 +183,10 @@ ms@2.1.2:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-nzxt@^0.3.12:
-  version "0.3.12"
-  resolved "https://registry.yarnpkg.com/nzxt/-/nzxt-0.3.12.tgz#69b13185e08c42c80afcd1fe7d09019d6549e386"
-  integrity sha512-iHNsAk/KXYRVuZQT88FMr4y5IjfyoWC8rqQBt/jJsYQJhZfwXdla1i669al79zv17QHLI0xz29mQQne+DMXqSw==
+nzxt@^0.3.14:
+  version "0.3.14"
+  resolved "https://registry.yarnpkg.com/nzxt/-/nzxt-0.3.14.tgz#16ceaffc24792c133d525450847f6da3e839d1b2"
+  integrity sha512-T/w/mQXpT/W0lugFtzQ64mep8eFuv8jSD/Zy1ieJpYneB9UjR1ygRTd7MsbtaGMPdzbFQ6OQV9N3jTwXvl31WA==
   dependencies:
     esbuild "^0.19.5"
     esbuild-register "^3.5.0"

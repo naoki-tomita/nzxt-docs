@@ -11,7 +11,7 @@ const Document: Component = (_, children) => {
         <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/components/prism-core.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/plugins/autoloader/prism-autoloader.min.js"></script>
         <link rel="shortcut icon" href="/images/favicon.svg" />
-        {<SsrStyle /> /* if you want to use zstyl in ssr */}
+        <SsrStyle />
         <title>nzxt document</title>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-J0MJBS66XD"></script>
         <script>

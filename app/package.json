@@ -7,7 +7,7 @@
     "@types/marked": "^6.0.0",
     "@types/node": "^20.8.10",
     "marked": "^9.1.4",
-    "nzxt": "^0.3.12",
+    "nzxt": "^0.3.14",
     "zheleznaya": "^0.2.3",
     "zstyl": "^0.2.3"
   },
