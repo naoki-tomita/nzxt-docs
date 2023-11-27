@@ -15,19 +15,23 @@ const Document: Component = (_, children) => {
         <title>nzxt document</title>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-J0MJBS66XD"></script>
         <script>
+          {`
           window.dataLayer = window.dataLayer || [];
-          function gtag() {"{"}dataLayer.push(arguments){"}"};
+          function gtag() {dataLayer.push(arguments)};
           gtag('js', new Date());
 
           gtag('config', 'G-J0MJBS66XD');
+          `}
         </script>
         <style>
-          body {"{"}
+          {`
+          body {
             max-width: 1024px;
-          {"}"}
-          pre {"{"}
+          }
+          pre {
             background-color: #272822;
-          {"}"}
+          }
+          `}
         </style>
       </head>
       <body>
