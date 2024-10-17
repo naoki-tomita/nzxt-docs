@@ -15,7 +15,7 @@ Counter.getInitialPrpos = async () => {
   if (repo.stargazers_count == null) {
     console.log(JSON.stringify(repo));
   }
-  return { stargazersCount: repo.stargazers_count };
+  return { stargazersCount: repo.stargazers_count ?? -1 };
 }
 
 export default Counter
