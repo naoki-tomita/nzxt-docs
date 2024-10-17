@@ -12,6 +12,9 @@ const Counter: Component<{ stargazersCount: number }> = ({ stargazersCount }) =>
 Counter.getInitialPrpos = async () => {
   const repo = await fetch("https://api.github.com/repos/naoki-tomita/nzxt")
     .then(it => it.json())
+  if (repo.stargazers_count == null) {
+    console.log(JSON.stringify(repo));
+  }
   return { stargazersCount: repo.stargazers_count };
 }
 
