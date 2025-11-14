@@ -6,6 +6,7 @@
   "dependencies": {
     "@types/marked": "^6.0.0",
     "@types/node": "^20.8.10",
+    "esbuild-register": "^3.6.0",
     "marked": "^9.1.4",
     "nzxt": "^0.3.14",
     "zheleznaya": "^0.2.3",
