@@ -9,5 +9,16 @@
     "dev": "deno run --allow-all node_modules/nzxt/bin/nzxt.js start",
     "build": "deno run --allow-all node_modules/nzxt/bin/nzxt.js build",
     "serve": "deno run --allow-all node_modules/nzxt/bin/nzxt.js serve"
+  },
+  "deploy": {
+    "install": "deno install",
+    "build": "deno task build",
+    "runtime": {
+      "type": "dynamic",
+      "entrypoint": "node_modules/nzxt/bin/nzxt.js",
+      "args": [
+        "serve"
+      ]
+    }
   }
 }
