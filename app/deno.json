@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "jsxFactory": "h"
+  },
+  "nodeModulesDir": "auto",
+  "tasks": {
+    "start": "deno run --allow-all node_modules/nzxt/bin/nzxt.js",
+    "dev": "deno run --allow-all node_modules/nzxt/bin/nzxt.js start",
+    "build": "deno run --allow-all node_modules/nzxt/bin/nzxt.js build",
+    "serve": "deno run --allow-all node_modules/nzxt/bin/nzxt.js serve"
+  }
+}
