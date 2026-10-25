@@ -5,8 +5,7 @@
 <iframe src="/demos/counter" width="500" height="180"></iframe>
 
 ```tsx
-import { Component, h } from "nzxt/h";
-import { useStore } from "zheleznaya";
+import { Component, h, useStore } from "nzxt/h";
 
 const Counter: Component<{ count: number }> = ({ count }) => {
   const state = useStore({ count });
@@ -24,6 +23,14 @@ Counter.getInitialPrpos = async () => {
 
 export default Counter
 ```
+
+`useStore` is exported from `nzxt/h`. It creates a store bound to the page that
+nzxt renders on the client, and the page re-renders whenever the store changes.
+During server side rendering it just returns the initial value.
+
+> zheleznaya 0.3 removed the global `useStore` / `render` in favor of
+> `createRoot`, so pages must import `useStore` from `nzxt/h`, not from
+> `zheleznaya`.
 
 ## Server side data fetching
 

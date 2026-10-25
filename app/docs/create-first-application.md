@@ -8,6 +8,9 @@
 
 > On Deno, use `deno add npm:nzxt npm:zheleznaya`.
 
+nzxt requires zheleznaya 0.3 or later. zheleznaya is an ES module only package,
+so Node.js 20.19+ / 22.12+ (or Deno 2) is required.
+
 ## configure typescript.
 
 ```bash

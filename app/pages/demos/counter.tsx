@@ -1,5 +1,4 @@
-import { Component, h } from "nzxt/h";
-import { useStore } from "zheleznaya";
+import { Component, h, useStore } from "nzxt/h";
 
 const Counter: Component<{ count: number }> = ({ count }) => {
   const state = useStore({ count });
