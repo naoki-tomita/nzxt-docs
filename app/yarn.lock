@@ -249,6 +249,17 @@ neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
+nzxt@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/nzxt/-/nzxt-0.4.0.tgz#d55b8542a2f3188a670e750834276a1b3c6bb48e"
+  integrity sha512-2P/vu5z9wd7WwhJdebSNmMGjE8oyl3YWRyz5sAaLxd+XZ653yQYg3rKE2tdxsZhjjrbB+brtjM4lwQEM5whr/Q==
+  dependencies:
+    esbuild "^0.28.2"
+    esbuild-register "^3.6.0"
+    source-map-support "^0.5.21"
+    summer-framework "^0.3.0"
+    ts-jest "^29.4.15"
+
 semver@^7.8.5:
   version "7.8.5"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.8.5.tgz#39b646037dd50c14fb451e7e4cac58ed8b863f69"
