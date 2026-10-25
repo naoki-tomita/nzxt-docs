@@ -61,5 +61,11 @@ Notes:
   esbuild's native binary. Deno Deploy allows subprocesses, but the binary that
   `deno install` fetches matches the *builder's* architecture — if a build ever
   fails to start with an esbuild error, that is the first thing to check.
+* Deno refuses npm package versions published less than 24 hours ago by
+  default (minimum dependency age). Right after a new nzxt or zheleznaya
+  release, `deno install` fails until the version is old enough, or pass
+  `--minimum-dependency-age=0` / set `"minimumDependencyAge"` in `deno.json`.
+* Node.js 20.19+ / 22.12+ is required when running on Node.js, because
+  zheleznaya 0.3 is an ES module only package and nzxt loads it with `require`.
 * nzxt listens on `$PORT`, falling back to 8080. Set `PORT` as an environment
   variable in the dashboard if the platform expects a specific port.

@@ -1,15 +1,14 @@
 {
   "name": "nzxt-docs",
-  "version": "0.1.11",
+  "version": "0.2.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@types/marked": "^6.0.0",
-    "@types/node": "^20.8.10",
+    "@types/node": "^26.6.5",
     "esbuild-register": "^3.6.0",
-    "marked": "^9.1.4",
-    "nzxt": "^0.3.14",
-    "zheleznaya": "^0.2.3",
+    "marked": "^18.1.1",
+    "nzxt": "^0.4.0",
+    "zheleznaya": "^0.3.4",
     "zstyl": "^0.2.3"
   },
   "scripts": {

@@ -1,4 +1,4 @@
-import { h, Component } from "zheleznaya";
+import { h, Component } from "nzxt/h";
 import { styled } from "zstyl";
 
 const Heading = styled.h1`

@@ -1,4 +1,4 @@
-FROM node:20.0-bullseye-slim
+FROM node:24-bookworm-slim
 WORKDIR /app
 COPY ./app .
 RUN yarn --production
